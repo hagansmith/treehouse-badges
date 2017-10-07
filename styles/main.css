@@ -1,3 +1,7 @@
 body {
   background-color: blue;
 };
+
+.badge {
+  max-height: 15px;
+}

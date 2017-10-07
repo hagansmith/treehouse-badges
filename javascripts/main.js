@@ -1,3 +1,3 @@
 "use strict";
 
-console.log("this works");
+require('./data');
