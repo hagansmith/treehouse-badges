@@ -1,7 +1,29 @@
 body {
-  background-color: blue;
-};
+  background-color: #0CF;
+}
 
-.badge {
-  max-height: 15px;
+#badge{
+  animation-name: example;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  border-radius: 35%;
+  padding: 5px;
+  height: 65px;
+  width: 55px;
+}
+
+@keyframes example {
+  0%   {background-color:#ff0000}
+  10%  {background-color:#ff8000}
+  18%  {background-color:#ffff00}
+  27%  {background-color:#80ff00}
+  40%  {background-color:#00ff00}
+  55%  {background-color:#00ff80}
+  60%  {background-color:#00ffff}
+  68% {background-color:#0080ff}
+  79% {background-color:#0000ff}
+  82% {background-color:#8000ff}
+  90% {background-color:#ff00ff}
+  95% {background-color:#ff0080}
+  100% {background-color:#ff0000}
 }
